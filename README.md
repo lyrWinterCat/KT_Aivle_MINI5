@@ -1,3 +1,5 @@
+# KT Aivle MINI PROJECT 5
+
 # 📢 VOC 기반 고객 해지 예측 프로젝트
 ## 📝 프로젝트 개요
 본 프로젝트는 **VOC(Voice of Customer, 고객의 소리) 데이터를 활용하여 고객 해지 여부를 예측**하는 AI 모델을 개발하는 것을 목표로 합니다.  
@@ -8,10 +10,7 @@
 ✅ 머신러닝/딥러닝 모델을 활용하여 **해지 방어 전략 수립**  
 ✅ VOC 패턴을 분석하여 **서비스 개선 방향 도출**  
 
----
-
 ## 🚀 프로젝트 수행 과정
-
 ### **1️⃣ 데이터 전처리**
 - **결측치 처리 (Missing Value Handling)**
   - `dropna()`, `fillna()` 등의 기법을 활용하여 데이터의 결측치를 제거하거나 보간법으로 채움  
@@ -71,7 +70,6 @@ python evaluate.py
 ---
 
 ## 🚀 프로젝트 수행 과정
-
 ### **1️⃣ 데이터 전처리**
 - **결측치 처리 (Missing Value Handling)**
   - `dropna()`, `fillna()` 등의 기법을 활용하여 결측 데이터를 보완
@@ -98,7 +96,6 @@ python evaluate.py
 - **ROC Curve & AUC Score**
   - 모델이 분류를 얼마나 잘 수행하는지 시각화
 
----
 
 ## 🔥 실행 방법
 
@@ -113,7 +110,6 @@ python train.py
 python evaluate.py
 ```
 
----
 
 
 
